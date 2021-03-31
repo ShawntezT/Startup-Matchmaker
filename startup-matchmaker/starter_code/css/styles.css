@@ -4,3 +4,86 @@
 
 /* BACKGROUND IMAGE URL */
 /* https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg */
+
+ 
+body{
+  background-image: url(https://res.cloudinary.com/jkeohan/image/upload/v1607432403/coworking_nxwjrp.jpg );
+  background-size: 100%;
+  background-repeat: no-repeat;
+ }
+ p.tagline {
+  background: #878787;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+ }
+  
+ #page-header{
+  text-transform: uppercase;
+  background: black;
+  border-bottom: #feff00 solid;
+  }
+ .one{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+ div.blurb{
+   display: flex;
+   flex-wrap: wrap;
+   background: #adadad;
+   opacity: 75%;
+   height: 200px;
+   width: 400px;
+   box-sizing: border-box;
+   position: relative;
+   left: 450px;
+   top: 75px;
+   border: 1px solid;
+ }
+ section.touts{
+  background: #adadad ;
+  display: flex;
+  position: relative;
+  top: 100px;
+  border-right: 1px solid black;
+ }
+ section.tout{
+  border-right: 1px solid black;
+ }
+ li:first-child {
+  font-size:20px;
+ }
+ li:nth-child(2){
+  font-size: 20px;
+ }
+ ul{
+  display: flex;
+  align-items: center;
+ }
+ li{
+  font-size: 15px;
+  margin: 10px;
+  color: white;
+ }
+ a{
+  text-decoration: none;
+  color: white;
+ }
+ footer{
+  background: black;
+  display: flex;
+  align-self: flex-end;
+  position: relative;
+  top:125px;
+ }
+ h1{
+  font-size: 30px;
+  color: #feff00;
+ }
+ .button{
+  background:  #878787;
+ }
+ .two{
+   background: #ffd900;
+ }
